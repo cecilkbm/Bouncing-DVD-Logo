@@ -5,14 +5,14 @@ Built as a playful exercise in game-loop logic, state management, and real-time 
 
 ---
 
-## ✨ Technologies
+## Technologies
   - Python 3
   - bext (terminal control & color rendering)
   - Standard Library (sys, random, time)
   - Cross-platform terminal animation
 #
 
-## 🚀 Features
+## Features
   - Multiple independently moving DVD logos
   - Real-time terminal animation
   - Accurate edge and corner collision detection
@@ -27,22 +27,22 @@ Built as a playful exercise in game-loop logic, state management, and real-time 
 ## 🧠 The Process
 This project started as a traditional bouncing DVD animation, but I intentionally pushed it further to explore stateful animation logic.
 Each logo is treated as its own entity with independent state:
-  - Position
-  - Direction
-  - Speed
-  - Combo count
-  - Timers for combo decay and rainbow mode
+    - Position
+    - Direction
+    - Speed
+    - Combo count
+    - Timers for combo decay and rainbow mode
     
 From there, I layered in mechanics:
-  - Corner bounces trigger combo chains
-  - Combos increase movement speed
-  - Sustained combos unlock rainbow color cycling
-  - Timers reset state to avoid runaway behavior
+    - Corner bounces trigger combo chains
+    - Combos increase movement speed
+    - Sustained combos unlock rainbow color cycling
+    - Timers reset state to avoid runaway behavior
     
 The result is a terminal animation that feels closer to a mini game loop than a simple script.
 #
 
-## 🧪 What I Learned
+## What I Learned
   - How to structure real-time loops in Python
   - Managing per-object state cleanly using dictionaries
   - Implementing collision detection and response
@@ -53,7 +53,7 @@ The result is a terminal animation that feels closer to a mini game loop than a 
 This project reinforced the importance of controlling complexity early, especially in interactive programs.
 #
 
-## 🧭 How It Works
+## How It Works
   - The terminal size is dynamically detected
   - Each logo moves diagonally across the screen
   - Logos bounce off edges and corners
